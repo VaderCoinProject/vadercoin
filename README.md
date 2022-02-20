@@ -1,6 +1,7 @@
 <h1 align="center">
 💰🌖  VaderCoin [VADE] 🪙🌠
-<br/>
+<br/>  
+  <img src="src/qt/res/icons/vadercoin.png" alt="Dogecoin" width="300"/>
 </h1>
 </br>
 
