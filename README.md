@@ -11,7 +11,7 @@ VaderCoin 🪙 is a community-driven cryptocurrency 💲 designed to represent a
 The block reward and the total number of all coins became x100.  
 There are ~2,100,000,000 VADE Coins. The starting reward is 5,000 VDE per block.  
 
-## Such ports
+## Such ports 🔍
 
 VaderCoin Core by default uses port `6448` for peer-to-peer communication that
 is needed to synchronize the "mainnet" blockchain and stay informed of new
