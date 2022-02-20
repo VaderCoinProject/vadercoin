@@ -1,0 +1,33 @@
+# /etc/conf.d/vadercoind: config file for /etc/init.d/vadercoind
+
+# Config file location
+#VADERCOIND_CONFIGFILE="/etc/vadercoin/vadercoin.conf"
+
+# What directory to write pidfile to?  (created and owned by $VADERCOIND_USER)
+#VADERCOIND_PIDDIR="/var/run/vadercoind"
+
+# What filename to give the pidfile
+#VADERCOIND_PIDFILE="${VADERCOIND_PIDDIR}/vadercoind.pid"
+
+# Where to write vadercoind data (be mindful that the blockchain is large)
+#VADERCOIND_DATADIR="/var/lib/vadercoind"
+
+# User and group to own vadercoind process
+#VADERCOIND_USER="vadercoin"
+#VADERCOIND_GROUP="vadercoin"
+
+# Path to vadercoind executable
+#VADERCOIND_BIN="/usr/bin/vadercoind"
+
+# Nice value to run vadercoind under
+#VADERCOIND_NICE=0
+
+# Additional options (avoid -conf and -datadir, use flags above)
+#VADERCOIND_OPTS=""
+
+# The timeout in seconds OpenRC will wait for vadercoind to terminate
+# after a SIGTERM has been raised.
+# Note that this will be mapped as argument to start-stop-daemon's
+# '--retry' option, which means you can specify a retry schedule
+# here. For more information see man 8 start-stop-daemon.
+VADERCOIND_SIGTERM_TIMEOUT=600
