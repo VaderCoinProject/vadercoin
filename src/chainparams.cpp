@@ -117,7 +117,7 @@ public:
         // The value is the chain work of the Vadercoin mainnet chain at height
         // 565'000, with best block hash:
         consensus.nMinimumChainWork = uint256S("0x00000000000000000000000000000000000000000000000000000100010001");
-        //consensus.defaultAssumeValid = uint256S("0xc01bef3777cd3198da32d646a46b772f65f1f891f9c763213f6b2215ed102e3e"); // 565'000
+        consensus.defaultAssumeValid = uint256S("0x525c5f6f980d2bd3f0133faeb1e43f25ba8a36c6f660fdd98b9c61ce2a33ecb3"); // 383
 
         consensus.nAuxpowChainId = 0x0001;
         consensus.nAuxpowStartHeight = 1;
@@ -168,7 +168,7 @@ public:
 
         checkpointData = {
             {
-                {  0, uint256S("0x0")},
+                {  383, uint256S("0x525c5f6f980d2bd3f0133faeb1e43f25ba8a36c6f660fdd98b9c61ce2a33ecb3")},
             }
         };
 
