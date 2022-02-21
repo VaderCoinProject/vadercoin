@@ -12,5 +12,4 @@ static const uint8_t chainparams_seed_main[] = {
 
 static const uint8_t chainparams_seed_test[] = {
 };
-
 #endif // VADERCOIN_CHAINPARAMSSEEDS_H
