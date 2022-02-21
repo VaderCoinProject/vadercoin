@@ -117,7 +117,7 @@ public:
         // The value is the chain work of the Vadercoin mainnet chain at height
         // 565'000, with best block hash:
         consensus.nMinimumChainWork = uint256S("0x00000000000000000000000000000000000000000000000000000100010001");
-        consensus.defaultAssumeValid = uint256S("0x525c5f6f980d2bd3f0133faeb1e43f25ba8a36c6f660fdd98b9c61ce2a33ecb3"); // 383
+        //consensus.defaultAssumeValid = uint256S("0x525c5f6f980d2bd3f0133faeb1e43f25ba8a36c6f660fdd98b9c61ce2a33ecb3"); // 383
 
         consensus.nAuxpowChainId = 0x0001;
         consensus.nAuxpowStartHeight = 1;
@@ -143,7 +143,7 @@ public:
         genesis = CreateGenesisBlock(1645325026, 188191294, 0x1D32E56F, 1, 5000 * COIN);
         consensus.hashGenesisBlock = genesis.GetHash();
         assert(consensus.hashGenesisBlock == uint256S("0x0000001e349bb5b2a23243a1a70bec33cad319153b880b877ce8ee6ece1fe4cb"));
-        assert(genesis.hashMerkleRoot == uint256S("0x5c73e862974011b435d0632a8106575d077ae218af70d14dff72b80e7878abc9"));
+        //assert(genesis.hashMerkleRoot == uint256S("0x5c73e862974011b435d0632a8106575d077ae218af70d14dff72b80e7878abc9"));
 
         // Note that of those which support the service bits prefix, most only support a subset of
         // possible options.
@@ -168,7 +168,7 @@ public:
 
         checkpointData = {
             {
-                {  383, uint256S("0x525c5f6f980d2bd3f0133faeb1e43f25ba8a36c6f660fdd98b9c61ce2a33ecb3")},
+                {  0, uint256S("0x0")},
             }
         };
 
